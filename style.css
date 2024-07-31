@@ -1,0 +1,170 @@
+@font-face{
+    font-family: 'Korolev-rounded';
+    src: url(fonts/fonnts.com-Korolev_Rounded_Heavy.otf);
+}
+@font-face{
+    font-family: 'Korolev';
+    src: url(fonts/fonnts.com-Korolev_Medium.otf);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+}
+.navbar{
+    width: 100%;
+    height: 113px;
+    background: #00ae44;
+    display: flex;
+    flex-direction: row;
+}
+.navbar-right{
+    display: flex;
+    margin:34px;
+}
+.navbar-logo img{
+    width: 85px;
+    height: 75px;
+    margin-top: 18px;
+    margin-left: 27px;
+    margin-right: 780px;
+}
+.navbar-right p{
+    margin-right: 16px;
+    margin-left: 16px;
+    margin-top: 17px;
+    font-family: 'Korolev';
+}
+.navbar-right p a{
+    color: #fff;
+    font-size: 22px;
+}
+.nav-social{
+    padding: 0 40px;
+    margin-top: 12px;
+    display: flex;
+}
+.nav-social img{
+    width: 29px;
+    height: 28px;
+    padding-right: 4px;
+}
+.banner{
+    width: 100%;
+    height: 728px;
+}
+.banner-img{
+    width: 100%;
+    height: 728px;
+    object-fit: cover;
+}
+#banner1{
+    position: relative;
+    top:113px;
+}
+#text-banner1{
+    position: absolute;
+    top: 33%;
+    left: 9%;
+    color: #fff;
+}
+#text-banner1 h1{
+    font-family: 'Korolev-rounded';
+    font-size: 5.5vw;
+    font-weight: 800;
+    line-height: 74px;
+    margin-top: 20px;
+    margin-bottom: 32px;
+}
+#text-banner1 a{
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-family: 'Korolev';
+}
+#banner2{
+    position: relative;
+}
+#banner3{
+    position: relative;
+}
+.text-banner{
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    margin: 0 417px;
+    padding-top: 10px;
+    padding-bottom: 43px;
+    text-align: center;
+    width: 45%;
+    background-color: rgba(10, 91, 43, 0.8);
+    border-radius: 100px;
+}
+.text-banner h1{
+    font-family: 'Korolev';
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.text-banner p{
+    margin-bottom: 20px;
+    font-family: 'Korolev';
+    font-size: 16px;
+    line-height: 2.8vh;
+    padding: 6px 25px;
+}
+.text-banner a{
+    border: 2px solid #fff;
+    border-radius: 30px;
+    margin-top: 10px;
+    padding: 7px 36px;
+    font-size: 19px;
+    font-family: 'Korolev';
+}
+footer{
+    width: 100%;
+    height: 126px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding-left: 310px;
+    padding-right: 320px;
+    padding-bottom: 48px;
+}
+#footer-contents{
+    padding: 15px;
+}
+#footer-contents ul{
+    list-style: none;
+    padding-inline-start: 0px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    margin-bottom: 12px;
+}
+#footer-contents ul li{
+    display: inline;
+    font-family: 'Korolev';
+    font-size: 12px;
+    padding: 0px 13px;
+}
+#footer-contents p{
+    font-family: 'Korolev';
+    font-size: 11px;
+    margin: 0px 15px;
+    padding-top: 9px;
+}
